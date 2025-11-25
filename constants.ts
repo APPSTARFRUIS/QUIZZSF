@@ -5,9 +5,9 @@ export const ADMIN_PASSWORD = "ssl-starfruits-2025";
 export const STORAGE_KEY = "sf_quiz_results";
 export const SURVEY_STORAGE_KEY = "sf_survey_results";
 
-// URL officielle du logo Star Fruits Variety Manager (Source publique)
-// Si cette URL ne s'affiche pas (protection hotlink), remplacez-la par un chemin local ou une Base64 de votre fichier.
-export const LOGO_URL = "https://www.star-fruits.com/wp-content/uploads/2017/08/logo-star-fruits-variety-manager.png";
+// Utilisation du fichier local situé dans le dossier /public/
+// Assurez-vous que le fichier "star-fruits-logo.png" existe dans le dossier public à la racine du projet.
+export const LOGO_URL = "/star-fruits-logo.png";
 
 export const QUESTION_LOGIC: QuestionConfig[] = [
   { id: 'q1', type: 'single', correctIndexes: [1] },
