@@ -1,0 +1,5 @@
+{
+  "name": "Quizz SSL Star Fruits",
+  "description": "Une application de quiz multilingue pour Star Fruits avec gestion des scores et interface d'administration.",
+  "requestFramePermissions": []
+}
